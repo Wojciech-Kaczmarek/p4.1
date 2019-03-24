@@ -12,5 +12,15 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo inventore quia, optio vitae neque dolores qui sit autem quidem accusamus veritatis excepturi cupiditate voluptatum rerum molestiae consequuntur laudantium quis quisquam?
         </p>
     </div>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@16.0.0-rc.3/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.0.0-rc.3/umd/react-dom.production.min.js"></script>
+    <script type="text/javascript">
+    const rootElement = document.getElementById('root')
+    const element = document.createElement('div')
+    element.textContent = "hallo world"
+    element.className = 'container'
+    rootElement.appendChild(element)
+    </script>
 </body>
 </html>
