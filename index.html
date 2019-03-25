@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>blog</title>
 </head>
 <body>
-    <div>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo inventore quia, optio vitae neque dolores qui sit autem quidem accusamus veritatis excepturi cupiditate voluptatum rerum molestiae consequuntur laudantium quis quisquam?
-        </p>
-    </div>
-    <div id="root"></div>
-    <script src="https://unpkg.com/react@16.0.0-rc.3/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16.0.0-rc.3/umd/react-dom.production.min.js"></script>
-    <script type="text/javascript">
-    const rootElement = document.getElementById('root')
-    const element = document.createElement('div')
-    element.textContent = "hallo world"
-    element.className = 'container'
-    rootElement.appendChild(element)
-    </script>
+    <header>
+        <h1>blog dla developerow</h1>
+        <a href="#">kup teraz</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">start</a></li>
+            <li><a href="/">oferta</a></li>
+            <li><a href="news.thml">aktualnosci</a></li>
+            <li><a href="contact.html">kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>name</h1>
+            <img src="info.png" alt="news">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iure doloribus est incidunt qui vero atque magnam sunt numquam, eum, nesciunt cupiditate, dolore quaerat inventore? Eos aut rem ipsam pariatur.</p>
+            <a href="artykul1.html">o</a>
+        </article>
+        <article>
+            <h1>name</h1>
+            <img src="info.png" alt="news">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iure doloribus est incidunt qui vero atque magnam sunt numquam, eum, nesciunt cupiditate, dolore quaerat inventore? Eos aut rem ipsam pariatur.</p>
+            <a href="artykul1.html">o</a>
+        </article>
+    </main>
+    <aside></aside>
+    <section>
+        <a href="">1<img src="art1.jpg" alt=""></a>
+        <a href="">2<img src="art2.jpg" alt=""></a>
+        <a href="">3<img src="art3.jpg" alt=""></a>
+    </section>
+    <footer>
+        <p>&copy; footer</p>
+    </footer>
 </body>
 </html>
